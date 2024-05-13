@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./styles/reset.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+
+		<title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+	</head>
+	<body>
+		<main>
+			<h1 class="sr-only">Coding Bootcamp Testimonials Slider</h1>
+			<section class="slider-wrapper" id="wrapper">
+				<div class="slider">
+					<div class="slider__top-wrapper">
+						<div class="slider__image-container">
+							<img src="./images/image-tanya.jpg" alt="Image Tanya" />
+						</div>
+						<div class="slider__navigation">
+							<button class="slider__navigation-button prev">
+								<img src="./images/icon-prev.svg" alt="Icon prev arrow" />
+							</button>
+							<button class="slider__navigation-button next">
+								<img src="./images/icon-next.svg" alt="Icon next arrow" />
+							</button>
+						</div>
+					</div>
+					<div class="slider__testimonial">
+						<img
+							src="./images/pattern-quotes.svg"
+							alt="quotes"
+							class="slider__testimonial-bg"
+						/>
+						<p class="slider__testimonial-text">
+							“ I’ve been interested in coding for a while but never taken the
+							jump, until now. I couldn’t recommend this course enough. I’m now
+							in the job of my dreams and so excited about the future. ”
+						</p>
+						<div class="slider__user">
+							<h2 class="slider__testimonial-name">Tanya Sinclair</h2>
+							<h3 class="slider__testimonial-title">UX Engineer</h3>
+						</div>
+					</div>
+				</div>
+				<div class="slider">
+					<div class="slider__top-wrapper">
+						<div class="slider__image-container">
+							<img src="./images/image-john.jpg" alt="Image Tanya" />
+						</div>
+						<div class="slider__navigation">
+							<button class="slider__navigation-button prev">
+								<img src="./images/icon-prev.svg" alt="Icon prev arrow" />
+							</button>
+							<button class="slider__navigation-button next">
+								<img src="./images/icon-next.svg" alt="Icon next arrow" />
+							</button>
+						</div>
+					</div>
+					<div class="slider__testimonial">
+						<img
+							src="./images/pattern-quotes.svg"
+							alt="quotes"
+							class="slider__testimonial-bg"
+						/>
+						<p class="slider__testimonial-text">
+							“ If you want to lay the best foundation possible I'd reccomend
+							taking this course. The depth the instructions go into this is
+							incredible. I now feel so confident about starting up as a
+							professional developer ”
+						</p>
+						<div class="slider__user">
+							<h2 class="slider__testimonial-name">John Tarkpor</h2>
+							<h3 class="slider__testimonial-title">
+								Junior Front-end Developer
+							</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by
+				<a
+					href="https://www.frontendmentor.io/profile/NitsuCosmic"
+					target="_blank"
+					>Nitsu</a
+				>.
+			</div>
+		</footer>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
